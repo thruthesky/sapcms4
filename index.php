@@ -1,1 +1,9 @@
-<h1>SAPCMS4 index.php</h1>
+<?php
+
+use of\Entity;
+
+include 'autoload.php';
+
+
+$obj = new Entity();
+
